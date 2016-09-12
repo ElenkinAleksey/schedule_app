@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :employees
   resources :auditories
   resources :pairs
   resources :subjects
