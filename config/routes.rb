@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :auditories
   resources :pairs
   resources :subjects
   # The priority is based upon order of creation: first created -> highest priority.
